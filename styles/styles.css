@@ -53,7 +53,7 @@ button {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 3px solid salmon;
+  outline: 1px solid salmon;
 }
 /* .section {
 } */
@@ -142,6 +142,9 @@ body {
   border-radius: 12px;
 }
 /* Hero section */
+.hero-wrap {
+  display: flex;
+}
 .left-hero {
 }
 .hero-title {
@@ -172,4 +175,11 @@ body {
 .list {
 }
 .right-hero {
+  width: 771px;
+  height: 800px;
+  background-image: url(../images/hero/emp2.png), url(../images/hero/emp-2.png),
+    url(../images/hero/emp-3.png), url(../images/hero/Group\ 9690.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 40px right 276px;
 }
